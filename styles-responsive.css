@@ -1,0 +1,76 @@
+
+/* Responsive CSS for tablet devices */
+@media only screen and (max-width: 768px) {
+    .logo a {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  
+    .login a {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .main {
+      padding: 10px;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+  
+  /* Responsive CSS for mobile devices */
+  @media only screen and (max-width: 480px) {
+    header {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .logo a {
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+  
+    .login a {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .main {
+      padding: 5px;
+    }
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  label {
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1rem;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  button[type="submit"] {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
